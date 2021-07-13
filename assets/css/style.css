@@ -194,26 +194,68 @@ img {
 }
 
 .album {
-  padding-top: 2%;
+    padding: auto;
+  
 
 }
 .album .row{
     display: flex;
 }
+.htc__contact__area .row {
+    display: flex;
+  }
+  .map-contacts--2 iframe {
+    border-radius: 5%;
+    padding-top: 3%;
+    margin-left: 4%;
+    width: 500px;
+    height: 500px;
+  }
+  .htc__contact__area .col {
+      padding-top: 5%;
+      padding-left: 5%;
+    }
 .bg-dark {
   width: 100%;
   display: block;
-  position: absolute;
+ margin-bottom: 0%;
   background-color: rgba(69, 245, 207, 0.2);
 }
 .footer-widget-area .row {
   display: flex;
 }
-.htc__contact__area .row {
-  display: flex;
-}
-.map-contacts--2 iframe {
-  border-radius: 5%;
-  padding-top: 3%;
-  margin-left: 4%;
-}
+
+/*-----contact us------*/
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .c_container {
+    border-radius: 5px;
+    padding: 20px;
+    width: 80%;
+    margin-left: 5%;
+    background-color: rgba(157, 157, 206, 0.1);
+  }
+  
